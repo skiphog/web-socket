@@ -21,16 +21,16 @@ Gateway::setSession('7f0000010b5400000002', ['uid' => 2]);*/
 
 //$data = Gateway::getAllClientIdList();
 if ((bool)Gateway::isUidOnline(2)) {
-    Gateway::sendToUid(2, 'Ахуенчик');
+    Gateway::sendToUid(2, 'send to 2');
 }
 
 if ((bool)Gateway::isUidOnline(1)) {
-    Gateway::sendToUid(1, 'Пошел нахуй отсюда петушок');
+    Gateway::sendToUid(1, 'send to 1');
 }
 
 $data = Gateway::getAllClientSessions();
 
-//Gateway::sendToUid(71268, 'Иди ты нахуй пидараст');
+//Gateway::sendToUid(71268, 'send to 71268');
 
 //$data = Gateway::getAllClientSessions();
 
