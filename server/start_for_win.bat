@@ -1,2 +1,0 @@
-php Components\start_register.php Components\start_gateway.php Components\start_businessworker.php
-pause
